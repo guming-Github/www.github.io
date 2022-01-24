@@ -1,0 +1,40 @@
+    html {
+        background-color: #b3e709;
+        /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+        font-size: 20px;
+        text-align: center;
+        /* Google fonts 输出的 CSS */
+        font-family: 'Zhi Mang Xing', cursive;
+    }
+    
+    body {
+        /*body的宽度*/
+        margin: 0 auto;
+        /*body边线到页面边界的距离*/
+        background-color: #FF9500;
+        border: 5px solid black;
+        /*边线 5像素 实线 黑色*/
+        padding: 0px 300px 10px 300px;
+        /*body边线到实际内容的距离*/
+    }
+    
+    a {
+        color: aliceblue;
+    }
+    
+    h1 {
+        margin: 10px;
+        padding: auto;
+        border: 5px solid black;
+        /*border是5像素，实线，黑色*/
+        color: #00539F;
+        text-shadow: 3px 3px 1px black;
+        /*阴影右移3像素，下移3像素，模糊半径1像素，黑色*/
+    }
+    
+    img {
+        display: block;
+        /*先把图像变成块，才能进一步操作*/
+        margin: 0px auto;
+        /*上下顶格，左右平分*/
+    }
